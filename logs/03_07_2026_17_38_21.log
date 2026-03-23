@@ -1,0 +1,2 @@
+{"user_id": 123, "filename": "report.pdf", "timestamp": "2026-03-07T12:08:21.500679Z", "level": "info", "event": "User uploaded a file"}
+{"error": "File not found", "user_id": 123, "timestamp": "2026-03-07T12:08:21.501116Z", "level": "error", "event": "Failed to process PDF"}

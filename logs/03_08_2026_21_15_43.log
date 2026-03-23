@@ -1,0 +1,8 @@
+{"timestamp": "2026-03-08T15:45:43.601712Z", "level": "info", "event": "Initializing ApiKeyManager (Google-only)"}
+{"timestamp": "2026-03-08T15:45:43.601835Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"path": "/Users/brijesh/agentic_ai/research_and_analyst/config/configuration.yaml", "keys": ["llm", "embedding_model"], "timestamp": "2026-03-08T15:45:43.602249Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["llm", "embedding_model"], "timestamp": "2026-03-08T15:45:43.602292Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2026-03-08T15:45:43.602320Z", "level": "info", "event": "Loading Google LLM"}
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+{"provider": "google", "model": "gemini-2.0-flash", "timestamp": "2026-03-08T15:45:43.641232Z", "level": "info", "event": "Google LLM loaded successfully"}
+AFC is enabled with max remote calls: 10.

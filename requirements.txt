@@ -13,3 +13,5 @@ lxml
 langchain-tavily
 yfinance
 ddgs
+structlog
+langchain_groq

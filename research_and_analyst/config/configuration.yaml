@@ -1,0 +1,23 @@
+llm:
+  google:
+    provider: google
+    model_name: gemini-2.5-flash
+    temperature: 0.2
+    max_output_tokens: 2048
+  anthropic:
+    provider: anthropic
+    model_name: claude-2
+    temperature: 0.2
+    max_output_tokens: 2048
+  azure:
+    provider: azure
+    model_name: gpt-4-32k # or gpt-4-8k
+    temperature: 0.2
+    max_output_tokens: 2048
+  openai:
+    provider: openai
+    model_name: gpt-4-8k
+    temperature: 0.2
+    max_output_tokens: 2048
+  default_provider: google
+  default_model: gemini-2.5-flash

@@ -1,0 +1,10 @@
+{"timestamp": "2026-03-08T15:52:47.897833Z", "level": "info", "event": "Initializing ApiKeyManager (Google-only)"}
+{"timestamp": "2026-03-08T15:52:47.897967Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"path": "/Users/brijesh/agentic_ai/research_and_analyst/config/configuration.yaml", "keys": ["llm"], "timestamp": "2026-03-08T15:52:47.898613Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["llm"], "timestamp": "2026-03-08T15:52:47.898654Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "google", "model": "gemini-2.5-flash", "timestamp": "2026-03-08T15:52:47.898677Z", "level": "info", "event": "Loading Google LLM"}
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+{"provider": "google", "model": "gemini-2.5-flash", "timestamp": "2026-03-08T15:52:47.921805Z", "level": "info", "event": "Google LLM loaded successfully"}
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+{"timestamp": "2026-03-08T15:52:49.302376Z", "level": "info", "event": "Google-only ModelLoader test completed successfully"}
